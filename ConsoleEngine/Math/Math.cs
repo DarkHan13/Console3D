@@ -30,5 +30,10 @@ public static class Math
     public static int Max(int a, int b)
     {
         return a > b ? a : b;
-    } 
+    }
+
+    public static float Step(float x, float edge)
+    {
+        return x > edge ? 1f : 0;
+    }
 }
